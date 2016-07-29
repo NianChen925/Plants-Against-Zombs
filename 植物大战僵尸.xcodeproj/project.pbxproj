@@ -13,6 +13,16 @@
 		C23E42F71D49ECAD0013ED07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23E42F51D49ECAD0013ED07 /* Main.storyboard */; };
 		C23E42F91D49ECAD0013ED07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23E42F81D49ECAD0013ED07 /* Assets.xcassets */; };
 		C23E42FC1D49ECAD0013ED07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23E42FA1D49ECAD0013ED07 /* LaunchScreen.storyboard */; };
+		C23E43051D49F4DE0013ED07 /* BaseZomb.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E43041D49F4DE0013ED07 /* BaseZomb.m */; };
+		C23E43081D4A050D0013ED07 /* Plant.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E43071D4A050D0013ED07 /* Plant.m */; };
+		C23E430B1D4A11FD0013ED07 /* Pea.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E430A1D4A11FD0013ED07 /* Pea.m */; };
+		C23E430F1D4A12190013ED07 /* IcePea.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E430E1D4A12190013ED07 /* IcePea.m */; };
+		C23E43121D4A12260013ED07 /* SunFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E43111D4A12260013ED07 /* SunFlower.m */; };
+		C23E43151D4A12400013ED07 /* Nut.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E43141D4A12400013ED07 /* Nut.m */; };
+		C23E43191D4A4D670013ED07 /* ZombA.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E43181D4A4D670013ED07 /* ZombA.m */; };
+		C23E431C1D4A4D740013ED07 /* ZombB.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E431B1D4A4D740013ED07 /* ZombB.m */; };
+		C23E431F1D4A4D7C0013ED07 /* ZombC.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E431E1D4A4D7C0013ED07 /* ZombC.m */; };
+		C23E43221D4A4D860013ED07 /* ZombD.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E43211D4A4D860013ED07 /* ZombD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		C23E42F81D49ECAD0013ED07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23E42FB1D49ECAD0013ED07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23E42FD1D49ECAD0013ED07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23E43031D49F4DE0013ED07 /* BaseZomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseZomb.h; sourceTree = "<group>"; };
+		C23E43041D49F4DE0013ED07 /* BaseZomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseZomb.m; sourceTree = "<group>"; };
+		C23E43061D4A050D0013ED07 /* Plant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plant.h; sourceTree = "<group>"; };
+		C23E43071D4A050D0013ED07 /* Plant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plant.m; sourceTree = "<group>"; };
+		C23E43091D4A11FD0013ED07 /* Pea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pea.h; sourceTree = "<group>"; };
+		C23E430A1D4A11FD0013ED07 /* Pea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pea.m; sourceTree = "<group>"; };
+		C23E430D1D4A12190013ED07 /* IcePea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcePea.h; sourceTree = "<group>"; };
+		C23E430E1D4A12190013ED07 /* IcePea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IcePea.m; sourceTree = "<group>"; };
+		C23E43101D4A12260013ED07 /* SunFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunFlower.h; sourceTree = "<group>"; };
+		C23E43111D4A12260013ED07 /* SunFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunFlower.m; sourceTree = "<group>"; };
+		C23E43131D4A12400013ED07 /* Nut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nut.h; sourceTree = "<group>"; };
+		C23E43141D4A12400013ED07 /* Nut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nut.m; sourceTree = "<group>"; };
+		C23E43171D4A4D670013ED07 /* ZombA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombA.h; sourceTree = "<group>"; };
+		C23E43181D4A4D670013ED07 /* ZombA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombA.m; sourceTree = "<group>"; };
+		C23E431A1D4A4D740013ED07 /* ZombB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombB.h; sourceTree = "<group>"; };
+		C23E431B1D4A4D740013ED07 /* ZombB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombB.m; sourceTree = "<group>"; };
+		C23E431D1D4A4D7C0013ED07 /* ZombC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombC.h; sourceTree = "<group>"; };
+		C23E431E1D4A4D7C0013ED07 /* ZombC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombC.m; sourceTree = "<group>"; };
+		C23E43201D4A4D860013ED07 /* ZombD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombD.h; sourceTree = "<group>"; };
+		C23E43211D4A4D860013ED07 /* ZombD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,8 @@
 		C23E42EB1D49ECAD0013ED07 /* 植物大战僵尸 */ = {
 			isa = PBXGroup;
 			children = (
+				C23E43161D4A4C580013ED07 /* Zomb */,
+				C23E430C1D4A12030013ED07 /* Plant */,
 				C23E42EF1D49ECAD0013ED07 /* AppDelegate.h */,
 				C23E42F01D49ECAD0013ED07 /* AppDelegate.m */,
 				C23E42F21D49ECAD0013ED07 /* ViewController.h */,
@@ -77,6 +109,40 @@
 				C23E42ED1D49ECAD0013ED07 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C23E430C1D4A12030013ED07 /* Plant */ = {
+			isa = PBXGroup;
+			children = (
+				C23E43061D4A050D0013ED07 /* Plant.h */,
+				C23E43071D4A050D0013ED07 /* Plant.m */,
+				C23E43091D4A11FD0013ED07 /* Pea.h */,
+				C23E430A1D4A11FD0013ED07 /* Pea.m */,
+				C23E430D1D4A12190013ED07 /* IcePea.h */,
+				C23E430E1D4A12190013ED07 /* IcePea.m */,
+				C23E43101D4A12260013ED07 /* SunFlower.h */,
+				C23E43111D4A12260013ED07 /* SunFlower.m */,
+				C23E43131D4A12400013ED07 /* Nut.h */,
+				C23E43141D4A12400013ED07 /* Nut.m */,
+			);
+			name = Plant;
+			sourceTree = "<group>";
+		};
+		C23E43161D4A4C580013ED07 /* Zomb */ = {
+			isa = PBXGroup;
+			children = (
+				C23E43031D49F4DE0013ED07 /* BaseZomb.h */,
+				C23E43041D49F4DE0013ED07 /* BaseZomb.m */,
+				C23E43171D4A4D670013ED07 /* ZombA.h */,
+				C23E43181D4A4D670013ED07 /* ZombA.m */,
+				C23E431A1D4A4D740013ED07 /* ZombB.h */,
+				C23E431B1D4A4D740013ED07 /* ZombB.m */,
+				C23E431D1D4A4D7C0013ED07 /* ZombC.h */,
+				C23E431E1D4A4D7C0013ED07 /* ZombC.m */,
+				C23E43201D4A4D860013ED07 /* ZombD.h */,
+				C23E43211D4A4D860013ED07 /* ZombD.m */,
+			);
+			name = Zomb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +216,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23E430B1D4A11FD0013ED07 /* Pea.m in Sources */,
+				C23E431C1D4A4D740013ED07 /* ZombB.m in Sources */,
+				C23E43051D49F4DE0013ED07 /* BaseZomb.m in Sources */,
+				C23E43221D4A4D860013ED07 /* ZombD.m in Sources */,
 				C23E42F41D49ECAD0013ED07 /* ViewController.m in Sources */,
+				C23E43151D4A12400013ED07 /* Nut.m in Sources */,
+				C23E43121D4A12260013ED07 /* SunFlower.m in Sources */,
+				C23E43081D4A050D0013ED07 /* Plant.m in Sources */,
+				C23E430F1D4A12190013ED07 /* IcePea.m in Sources */,
 				C23E42F11D49ECAD0013ED07 /* AppDelegate.m in Sources */,
+				C23E431F1D4A4D7C0013ED07 /* ZombC.m in Sources */,
 				C23E42EE1D49ECAD0013ED07 /* main.m in Sources */,
+				C23E43191D4A4D670013ED07 /* ZombA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
